@@ -1,0 +1,21 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.text1 {
+    color: blue;
+    font-size: 2em;
+}
+
+.text2 {
+    color: grey;
+    font-size: 1em;
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+}

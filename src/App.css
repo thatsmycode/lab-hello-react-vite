@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.icons-box{
+  
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+ 
+  
+}
+.presentation{
+  background-color: rgb(34, 13, 13);
+  height: 1200px;
+  margin: 0 20px;
+  display: flex;
+}
+
+.left-div{
+  padding-left:100px;
+width: 30%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.left-div h1{
+  color: white;
+}
+.left-div p{
+color: white;
+}
+button{
+  width: 100px;
+  height: 40px;
+}
+.right-div{
+  background-image: url("./assets/react.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 70%;
+}
